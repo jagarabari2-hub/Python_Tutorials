@@ -1,0 +1,23 @@
+import os
+print()
+print("|========================================|"
+      "| File Handling "
+      "||========================================|")
+print()
+myfile = open("myfile.txt", "r+")
+print("File Name :", myfile.name)
+print("Mode of file :", myfile.mode)
+print("File is close or not :", myfile.closed)
+myfile.write("It's raining outside.\nWeather is awesome.\n")
+str = myfile.read(20)
+print("String is :", str)
+pos = myfile.tell()
+print("Current position of file pointer :", pos)
+poschange = myfile.seek(0, 0)
+print("Current position of file pointer after changing :", poschange)
+print("Rechecked string is :", myfile.read(50))
+# os.rename("myfile.txt","myfile.txt")
+# os.remove("student.html")
+# os.mkdir("myfolder")
+myfile.close()
+os.getcwd()

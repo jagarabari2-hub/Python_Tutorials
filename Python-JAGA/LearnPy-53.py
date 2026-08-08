@@ -1,0 +1,38 @@
+print()
+print("|========================================|"
+      "| Application Form "
+      "||========================================|")
+print()
+from tkinter import *
+def submit():
+      name = e1.get()
+      collage = e2.get()
+      address = e3.get()
+      degree = e4.get()
+      country = e5.get()
+      print("Name :", name)
+      print("Collage :", collage)
+      print("Address :", address)
+      print("Degree :", degree)
+      print("Country :", country)
+
+root = Tk()
+root.title("Application Form")
+Label(root, text="Name").grid(row=0)
+Label(root, text="College").grid(row=1)
+Label(root, text="Address").grid(row=2)
+Label(root, text="Degree").grid(row=3)
+Label(root, text="Country").grid(row=4)
+e1 = Entry(root)
+e1.grid(row=0, column=1)
+e2 = Entry(root)
+e2.grid(row=1, column=1)
+e3 = Entry(root)
+e3.grid(row=2, column=1)
+e4 = Entry(root)
+e4.grid(row=3, column=1)
+e5 = Entry(root)
+e5.grid(row=4, column=1)
+Button(root, text="Submit", width=10, command=submit).grid(row=5, column=1)
+
+root.mainloop()
