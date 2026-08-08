@@ -32,6 +32,7 @@ How to use
 2. Navigate into the repository and run examples with Python 3:
 
    cd Python_Tutorials
+   
    Python-JAGA/LearnPy-1.py
 
 Contributing
