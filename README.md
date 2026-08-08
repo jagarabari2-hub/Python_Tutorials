@@ -27,12 +27,12 @@ How to use
 ----------
 1. Clone the repository:
 
-   git clone https://github.com/jagarabari2-hub/Python_Tutorials.git
+   git clone https://github.com/jagarabari2-hub/Python_Tutorials
 
 2. Navigate into the repository and run examples with Python 3:
 
    cd Python_Tutorials
-   python3 basics/example.py
+   Python-JAGA/LearnPy-1.py
 
 Contributing
 ------------
